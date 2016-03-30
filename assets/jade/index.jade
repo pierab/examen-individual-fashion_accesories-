@@ -1,0 +1,165 @@
+html(lang="es")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		title Fashion Accesories
+		link(rel="stylesheet", href='https://fonts.googleapis.com/css?family=Raleway:400,700,700italic', type='text/css')
+		link(href="assets/css/bootstrap.min.css" rel="stylesheet")
+		link(rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css")
+		link(href="assets/css/main.css" rel="stylesheet")
+	body
+		include helpers/variables
+		include helpers/mixins
+		header
+			.container
+				.row
+					.col-md-4.text-center
+						i.fa.fa-clock-o
+						.hour-box
+							h3 OPENING TIME
+							p 9.00 AM - 10.00 PM
+					.col-md-4.text-center
+						img(src='assets/images/logo.png')
+					.col-md-4.text-center
+						.box
+							.container-1
+								span.icon
+									i.fa.fa-search
+								input#search(type='search'
+								placeholder='Search...')
+		section.hero.text-center
+			.box-title
+				h1 AUTUM/WINTER LOOKBOOK
+			P - 2016 COLECTION -
+		section.collection.text-center
+			.container
+				.row
+					img(src="assets/images/banner1.jpg")
+					img.pull-right(src="assets/images/banner2.jpg")
+		section.latest
+			.container
+				.row
+					.col-md-3
+						.box-sale.text-center
+							img(src="assets/images/a1.jpg")
+							p sale
+							h4 Deliver Wide
+							i.fa.fa-star
+							i.fa.fa-star
+							i.fa.fa-star
+							i.fa.fa-star-o
+							i.fa.fa-star-o
+
+							p $218.00
+					.col-md-3
+						.box-sale.text-center
+							img(src="assets/images/a1.jpg")
+							h4 Deliver Wide
+							i.fa.fa-star
+							i.fa.fa-star
+							i.fa.fa-star
+							i.fa.fa-star-o
+							i.fa.fa-star-o
+
+							p $218.00
+					.col-md-3
+						.box-sale.text-center
+							img(src="assets/images/a1.jpg")
+							h4 Deliver Wide
+							i.fa.fa-star
+							i.fa.fa-star
+							i.fa.fa-star
+							i.fa.fa-star-o
+							i.fa.fa-star-o
+
+							p $218.00
+					.col-md-3
+						.box-sale.text-center
+							img(src="assets/images/a1.jpg")
+							h4 Deliver Wide
+							i.fa.fa-star
+							i.fa.fa-star
+							i.fa.fa-star
+							i.fa.fa-star-o
+							i.fa.fa-star-o
+
+							p $218.00
+		section.blog
+			.container
+				.row
+					.col-md-3
+						img(src='assets/images/blog1.jpg')
+						.text-box
+							h4 THE SIMPLE HEADING TITLE
+							P 27/11/2015
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do...
+							a(href='#') Read more...
+					.col-md-3
+						img(src="assets/images/blog2.jpg")
+						.text-box
+							h4 THE SIMPLE HEADING TITLE
+							P 27/11/2015
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do...
+							a(href='#') Read more...
+					.col-md-3
+						img(src="assets/images/blog3.jpg")
+						.text-box
+							h4 THE SIMPLE HEADING TITLE
+							P 27/11/2015
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do...
+							a(href='#') Read more...
+					.col-md-3
+						img(src="assets/images/blog1.jpg")
+						.text-box
+							h4 THE SIMPLE HEADING TITLE
+							P 27/11/2015
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do...
+							a(href='#') Read more...		
+		section.clients.text-center
+			.container
+				.row
+					.col-md-2
+						+client("client1")
+					.col-md-2
+						+client("client2")
+					.col-md-2
+						+client("client3")
+					.col-md-2
+						+client("client4")
+					.col-md-2
+						+client("client5")
+					.col-md-2
+						+client("client6")
+		section.buy
+			.container
+				.row
+					.col-md-4
+						.box.buy
+							.row
+								.icon-box
+									i.fa.fa-star
+								.buy-text
+									h5 ORDER ONLINE NOW
+									P Call us:(0123) 3281125
+					.col-md-4
+						.box.buy
+							.row
+								.icon-box
+									i.fa.fa-star
+								.buy-text
+									h5 ORDER ONLINE NOW
+									P Call us:(0123) 3281125
+					.col-md-4
+						.box.buy
+							.row
+								.icon-box
+									i.fa.fa-star
+								.buy-text
+									h5 ORDER ONLINE NOW
+									P Call us:(0123) 3281125
+		footer
+			.container
+				.row
+					p.pull-left Copyright © 2015 
+						span BootExperts.
+					img.pull-right(src="assets/images/payment.png")

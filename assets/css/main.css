@@ -1,0 +1,25 @@
+body {
+  font-family: "Raleway", sans-serif; }
+
+h3, h2, h4, h5, h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold; }
+
+a {
+  color: #E48080; }
+
+.hero {
+  background: url("../../images/slider1.jpg") center;
+  height: 50vh;
+  background-size: cover;
+  color: white; }
+
+footer {
+  background-color: #444444;
+  padding: 1%; }
+  footer p {
+    color: white; }
+    footer p span {
+      color: #E48080; }
+
+/*# sourceMappingURL=main.css.map */
